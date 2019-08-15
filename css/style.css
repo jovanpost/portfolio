@@ -265,7 +265,7 @@ img {
     #mainMenuMobile {
         display: block;
         grid-row: 1;
-        grid-column: 12/13;
+        /* grid-column: 12/13; */
         margin-top: 50%;
         margin-right: 30%;
     }
