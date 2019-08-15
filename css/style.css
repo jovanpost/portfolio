@@ -35,10 +35,11 @@
 }
 #menu {
     grid-column: 1/13;
-    margin: 0 auto;
     grid-row: 2;
     margin-bottom: 3%;
     margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #menu a {
@@ -300,7 +301,7 @@ img {
     .item {
         grid-column: 2/12;
     }
-    
+
     #jobTime {
         grid-column: 1/13;
         grid-row: 1;
