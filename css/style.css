@@ -7,7 +7,8 @@
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: minmax(50px, auto);    
     background: black;
-    color: white
+    color: white;
+    min-height: 100vh;
 }
 
 #header {
@@ -60,7 +61,6 @@ main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: minmax(50px, auto);   
-    grid-gap: 1%; 
     margin-top: 1%;
 }
 
@@ -212,12 +212,8 @@ main {
 footer {
     grid-column: 1/13;
     grid-row: 3;
-    margin-top: 5%;
 }
 
-.footerResume {
-    margin-top: 23%;
-}
 
 footer p {
     text-align: center;
@@ -233,9 +229,6 @@ img {
 }
 
 @media(max-width: 768px) {
-    .footerResume {
-        margin-top: 40%;
-    }
 
     .item {
         grid-gap: 0;
@@ -307,11 +300,7 @@ img {
     .item {
         grid-column: 2/12;
     }
-
-    footer {
-        margin-top: 20%;
-    }
-
+    
     #jobTime {
         grid-column: 1/13;
         grid-row: 1;
@@ -331,9 +320,6 @@ img {
         text-align: left;
     }
 
-    .footerResume {
-        margin-top: 96%;
-    }        
 }
 
 @media(max-width: 375px) {
@@ -345,9 +331,6 @@ img {
         grid-column: 1/13;
     }
 
-    .footerResume {
-        margin-top: 105%;
-    }
 
     #mainMenuMobile {
         margin-top: 75%;
