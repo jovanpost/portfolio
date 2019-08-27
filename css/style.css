@@ -77,6 +77,12 @@ main {
     grid-column: 3/11;
 }
 
+.item h2 {
+    border: 5px solid black;
+    padding: 2%;
+    display: inline-block;
+}
+
 .item a {
     color: black;
 }
