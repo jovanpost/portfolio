@@ -172,6 +172,14 @@ main {
     grid-row: 13;
 }
 
+#item14 {
+    grid-row: 14;
+}
+
+#item15 {
+    grid-row: 15;
+}
+
 
 #jobTime {
     grid-column: 1/4;
